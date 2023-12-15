@@ -9,11 +9,11 @@ from query_solver import run_query
 import time
 
 
-st.title('AutoGen OpenSource Multi-Agent Python Programming Team')
-st.markdown('''The CodeCrafters Team roles:
-            -> 1. CodeLlama: The Coding Virtuoso. Role: Lead Developer 
-            -> 2. Starcoder: The Assistant Maestro. Role: Assistant Developer
-            -> 3. Llama 2: The Versatile Visionary. Role: Project Manager and Generalist ''')
+st.title('AI调研group')
+# st.markdown('''The CodeCrafters Team roles:
+#             -> 1. CodeLlama: The Coding Virtuoso. Role: Lead Developer 
+#             -> 2. Starcoder: The Assistant Maestro. Role: Assistant Developer
+#             -> 3. Llama 2: The Versatile Visionary. Role: Project Manager and Generalist ''')
 
 # Retrieve the API key from environment variables
 
