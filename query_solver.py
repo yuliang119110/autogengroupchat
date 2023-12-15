@@ -29,11 +29,11 @@ def run_query(programming_problem, api_key):
         },
     ]
     
-    pm_llm_config = {"config_list": config_list}
+    pm_llm_config = {"config_list": config_list,"request_timeout": 120,"seed": 42}
 
-    llm_config = {"config_list": config_list}
+    llm_config = {"config_list": config_list,"request_timeout": 120,"seed": 42}
     
-    code_llm_config = {"config_list": config_list}
+    code_llm_config = {"config_list": config_list,"request_timeout": 120,"seed": 42}
     
     # autogen.ChatCompletion.start_logging()
 
